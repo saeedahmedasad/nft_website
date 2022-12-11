@@ -382,3 +382,74 @@ nav {
   color: #ffffff;
   cursor: pointer;
 }
+#partners {
+  height: 900px;
+  background: url("./assets/radial_circle_2.png");
+  background-repeat: no-repeat;
+}
+#partners .container > h1 {
+  width: 330px;
+  height: 96px;
+
+  margin: auto;
+  font-family: "Joyride-Extended";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #ffffff;
+}
+#partners .container > h1 span {
+  color: #00dcb4;
+}
+.partners_cards {
+  margin-top: 95px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.partners_card {
+  width: 396px;
+  height: 428px;
+  border-radius: 30px;
+  text-align: center;
+}
+.partners_card_1 {
+  background: linear-gradient(141.74deg, #f95c10 0%, #cf30c6 96.12%);
+}
+.partners_card_2 {
+  background: linear-gradient(144.27deg, #f1f300 -5.03%, #f96d00 96.36%);
+}
+.partners_card_3 {
+  background: linear-gradient(139.15deg, #3ff3b1 0%, #8a4cf4 100%);
+}
+.partners_card img {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.partners_card h1 {
+  font-family: "Joyride-Extended";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  /* line-height: 29px; */
+  text-align: center;
+
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+.partners_card p {
+  width: 270px;
+  margin: auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #ffffff;
+}
